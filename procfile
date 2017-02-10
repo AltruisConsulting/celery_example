@@ -1,0 +1,1 @@
+worker: celery -A tibController.tasks worker --loglevel=info --beat
